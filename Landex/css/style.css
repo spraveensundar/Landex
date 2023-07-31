@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Plus+Jakarta+Sans:ital,wght@1,300&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family:"Plus Jakarta Sans";
+    box-sizing:border-box;
+}
+
+body{
+
+    position: relative;
+    background-color:#111;
+    color: #c0c0c0 !important;
+}
+
+a{
+    color: #8888 !important;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    z-index: 1000;
+}
+
+img{
+
+    width: 100%;
+}
+
+
+.navbar-brand h2{
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-brand i{
+    font-size:1.5em;
+    color: rgba(255, 179, 0, 0.766);
+}
+
+.btn-primary{
+    color: #111;
+    background-color:rgba(255, 179, 0, 0.766) !important;
+    padding:10px 20px;
+    border-radius:100px;
+    font-size: 20px;
+    border: none !important;
+}
+
+.btn-primary:hover{
+
+    color: #111 !important;
+}
+.btn-primary:focus{
+
+    box-shadow: none !important;
+    color: #111 !important;
+}
+
+.navbar-nav a{
+
+    font-size: 17px;
+}
+
+.navbar-nav a:hover,.navbar-nav a:active{
+    color: #fff !important;
+}
+
+.navbar-toggler{
+    color: #fff !important;
+    background-color: #fff !important;
+}
+
+nav.sticky{
+
+    background-color: #111 !important;
+}
+
+
+
+#home h1{
+
+    font-size: 4em;
+    color: #fff;
+    font-weight:800;
+    margin-top: 100px;
+}
+
+#home p{
+
+    max-width:800px;
+}
+
+#home .input-group{
+
+    background-color: rgb(56, 54, 54);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#home input{
+
+    border-radius: 0 !important;
+    border: none !important;
+    background-color:transparent;
+    color: #fff;
+}
+
+#home input:focus{
+
+    border: none !important;
+    box-shadow: none !important;
+    background-color:none !important;
+}
+
+#home .btn-primary{
+
+    border-radius:25px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#home-img{
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/home-img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#services h2{
+
+    font-size: 3em !important;
+    color: #fff;
+}
+
+#services .card{
+
+    background-color:rgb(29, 25, 25);
+    border-radius: 30px;
+}
+
+#services .card i{
+
+    background-color:rgb(29, 25, 25);
+    font-size:2em;
+    padding:20px;
+    border-radius: 50%;
+    background-color: #8888;
+}
+
+#services .card h3{
+
+    font-weight:bold;
+}
+
+section{
+
+    padding-top: 100px;
+}
+
+#features i{
+
+    padding:10px;
+    color: #111;
+    border-radius: 50%;
+    background-color:rgb(205, 251, 0);
+}
+
+#features img{
+
+    border-radius: 30px;
+}
+
+.team-content{
+
+    position: relative;
+}
+
+.team-content .team-img img{
+
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.team-content a i{
+
+    background-color:rgb(29, 25, 25);
+    font-size:2em;
+    padding:10px;
+    border-radius: 50%;
+    background-color: #8888;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.team-content a i:hover{
+
+    color:rgb(205, 251, 0);
+}
+
+
+.team-content::before{
+
+    content: "";
+    width: 100%;
+    height: calc(100% - 90px);
+    position: absolute;
+    background-color:rgb(29, 25, 25);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#testimonials{
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/text.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+.test-content{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(29, 25, 25);
+}
+
+.test-content img{
+
+    width: 100px !important;
+    height:100px;
+    border-radius:50%;
+}
+
+.test-content .code{
+
+    width:10%;
+    height: 2px;
+    background-color:#8888;
+}
+
+
+
+#blog .card{
+
+    background-color:rgba(12, 11, 11, 0.707);
+    border-radius:20px !important;
+}
+
+#blog .card img{
+
+    border-radius:  20px 20px 0px 0px;
+}
+
+#happy{
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/happy.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+.footer{
+    
+    padding: 100px 0px;
+}
+
+
